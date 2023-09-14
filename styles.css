@@ -7,6 +7,8 @@ button {
     color: #E5E7EB;
     border-radius: 8px;
     padding: 8px 24px;
+    width: 110px;
+    /* border: none; */
 }
 
 ul {
@@ -22,7 +24,7 @@ ul {
 .header {
     display: flex;
     flex-direction: column;
-    padding: 10px 100px 100px;
+    padding: 10px 100px 150px;
 }
 
 .upper-header {
@@ -58,7 +60,7 @@ ul {
 }
 
 .hero-text-container button {
-    width: 110px;
+    /* width: 110px; */
     border: none;
 }
 
@@ -81,35 +83,67 @@ ul {
     height: auto;
 }
 
+.information {
+    padding: 50px 0px 100px;
+}
+
 .info-header {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.info-image-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.info-image {
+    max-width: 250px;
 }
 
 .info-image img {
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    padding: 70px 200px;
 }
 
 .quote-text {
     color: #1F2937;
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
 }
 
 .quote-person {
     color: #1F2937;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
+    text-align: right;
 }
 
 .signup {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    margin: 50px 100px;
+    padding: 50px;
     background-color: #3882F6;
+    gap: ;
+}
+
+.signup-text-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .signup-header {
@@ -119,4 +153,16 @@ ul {
 
 .signup-text {
     color: #E5E7EB;
+}
+
+.signup button {
+    padding: 5px;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
